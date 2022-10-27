@@ -1,0 +1,95 @@
+
+   body{
+   
+    background-color: black;
+    font-family: Ubuntu, sans-serif;
+   } 
+   .page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+
+   }
+   h1{
+    color: aliceblue;
+    font-size: 15em;
+    color: transparent;
+    font-weight: bold;
+    background-image: url(https://media.giphy.com/media/3NeSk2IVEd2FYUQEcM/giphy.gif);
+    background-size: cover;
+    background-position-y: center ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+  p{
+    
+    font-size: 1.5em;
+    color: aliceblue;
+    font-style: italic;
+  }
+  .Message{
+    width: 100%;
+   
+}
+  button{
+    font-weight: bold;
+    background-color: #29b51a;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #fff;
+    padding: 11px 22px;
+    margin-top: 3em;
+    
+    border: none;
+    box-shadow: 5px 5px 30px 0px rgba(143, 255, 145, 0.511);
+  }
+  @media only screen and (min-width: 600px) and (max-width:966px){
+    .page {
+      flex-direction: column;
+      align-items: center;
+      gap: rem;
+      flex: 100%;
+      max-width: 100%;
+      
+    }
+    
+    h1{
+        font-size: 14em;
+    }
+    p{
+        font-size: 1.5em;
+    }
+    button{
+        width: 10em;
+        height: 3em;
+        font-size: 1em;
+    }
+}
+@media only screen and (min-width: 967px) {
+    .page {
+        flex-direction: row;
+        gap: 10rem;
+        flex: 100%;
+        max-width: 80vw;
+        margin: 3rem auto;
+      }
+      .text{
+          margin-left: 3em;
+      }
+      h1{
+          font-size: 16em;
+      }
+      p{
+          font-size: 2.2em;
+      }
+      button{
+          width: 10em;
+          height: 3em;
+          font-size: 1em;
+      }
+  }
