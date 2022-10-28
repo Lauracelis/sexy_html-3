@@ -32,7 +32,7 @@
     color: aliceblue;
     font-style: italic;
   }
-  .Message{
+  .message{
     width: 100%;
    
 }
@@ -93,3 +93,6 @@
           font-size: 1em;
       }
   }
+
+  /*************************************************************/
+ 
